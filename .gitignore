@@ -1,1 +1,60 @@
-./venv
+# Byte-compiled / optimized / DLL files (кэш интерпретатора Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging (артефакты сборки, если пригодятся в будущем)
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments (локальные песочницы зависимостей)
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (критично: файлы с токенами и ключами)
+.env
+.env.*
+!.env.example
+
+# Media & Temporary files (папка для временных mp3/аудио твоего бота)
+downloads/
+*.mp3
+*.m4a
+*.webm
+*.part
+*.ytdl
+
+# IDEs and Editors (настройки редакторов: VS Code, PyCharm и др.)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & Coverage (если позже подключишь pytest)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs (логи самого приложения или системы)
+*.log
